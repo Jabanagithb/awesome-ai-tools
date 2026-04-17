@@ -1,0 +1,49 @@
+name: Sync from upstream
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-upstream
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout this repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          persist-credentials: true
+
+      - name: Mirror content from upstream
+        env:
+          UPSTREAM_URL: https://github.com/tornikebolokadze1-cyber/awesome-ai-pulse-georgia.git
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git clone --depth=1 --quiet "$UPSTREAM_URL" /tmp/upstream
+          rm -rf /tmp/upstream/.git
+
+          rsync -a --delete \
+            --exclude='.github/' \
+            --exclude='.git/' \
+            /tmp/upstream/ ./
+
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Already in sync — no changes."
+            exit 0
+          fi
+
+          git add -A
+          git commit -m "chore: sync from upstream ($(date -u +'%Y-%m-%d'))"
+          git push origin HEAD:main
