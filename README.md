@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"/></a>
-  <img src="https://img.shields.io/badge/repos-117-00D0FF?style=flat-square&labelColor=111827&v=8" alt="Repos"/>
+  <img src="https://img.shields.io/badge/repos-129-00D0FF?style=flat-square&labelColor=111827&v=13" alt="Repos"/>
   <img src="https://img.shields.io/badge/categories-9-A949DA?style=flat-square&labelColor=111827" alt="Categories"/>
   <img src="https://img.shields.io/badge/made_in-Georgia_%F0%9F%87%AC%F0%9F%87%AA-00D0FF?style=flat-square&labelColor=111827" alt="Made in Georgia"/>
   <a href="https://aipulsegeorgia.ge"><img src="https://img.shields.io/badge/aipulsegeorgia.ge-website-A949DA?style=flat-square&labelColor=111827" alt="Website"/></a>
@@ -61,8 +61,11 @@
 | [Oh My ClaudeCode](https://github.com/yeachan-heo/oh-my-claudecode) | 23K | Claude Code-ს მრავალაგენტურ ორკესტრატორად აქცევს — autopilot რეჟიმში 5 ფაზით ავტონომიურად მუშაობს, team რეჟიმში რამდენიმე აგენტი პარალელურად ასრულებს ამოცანებს. 19 სპეციალიზებული აგენტი და 36 უნარი ერთ პლაგინში. |
 | [Obsidian Skills](https://github.com/kepano/obsidian-skills) | 19K | Obsidian-ის (პოპულარული ჩანიშვნების აპი) შემქმნელის მიერ გაკეთებული — AI ასისტენტს შენს Obsidian ჩანიშვნებთან მუშაობის უნარს აძლევს. შეუძლია ფაილების წაკითხვა, შექმნა, ძიება და რედაქტირება შენს ცოდნის ბაზაში. |
 | [Agent Skills](https://github.com/addyosmani/agent-skills) | 16.4K | Google-ის Addy Osmani-ს (ცნობილი ვებ დეველოპერი) AI აგენტების საინჟინრო უნარების პაკეტი — 20 მრავალჯერადი სკილი (spec-driven-dev, TDD, code review, shipping), რომლებიც AI აგენტებს senior-ივით ამუშავებენ. თითოეული სკილი Markdown workflow-ია, რომელსაც აგენტი როგორც playbook-ს ისე მიყვება. |
+| [Agent Skills Spec](https://github.com/agentskills/agentskills) | 16.5K | Anthropic-ის ოფიციალური ღია სტანდარტი AI აგენტებისთვის უნარების მისაცემად — write-once, use-everywhere პრინციპით. ქაღალდი სრული სპეციფიკაციით, რეფერენს SDK-ით და მაგალითი სკილებით. თუ საკუთარ სკილებს ქმნი AI აგენტებისთვის, ეს არის ფუნდამენტი — სტანდარტი, რომელსაც Claude Code, Codex და სხვა პლატფორმები იყენებენ. |
 | [Claude Plugins Official](https://github.com/anthropics/claude-plugins-official) | 16K | Anthropic-ის (Claude-ის შემქმნელი კომპანია) ოფიციალური პლაგინების კატალოგი. აქ მხოლოდ შემოწმებული და ხარისხიანი პლაგინებია — საიმედო წყარო Claude Code-ის გასაფართოებლად. |
 | [Career-Ops](https://github.com/santifer/career-ops) | 13K | AI-ზე დაფუძნებული სამუშაოს ძიების სისტემა — ავტომატურად პოულობს ვაკანსიებს, აფასებს A-F სკალით, წერს CV-ს თითო პოზიციაზე მორგებულად და ადევნებს თვალს განაცხადებს. 740+ ვაკანსია შეფასდა მისი ბეტა ტესტირების დროს. |
+| [Remotion Skills](https://github.com/remotion-dev/skills) | 2.8K | Remotion-ის (React-ში ვიდეოების შექმნის ფრეიმვორკი) ოფიციალური Agent Skills — AI ასისტენტებს Remotion-ით ვიდეოების აწყობის ექსპერტიზას აძლევს. თუ პროგრამულად ქმნი ვიდეოებს React კომპონენტებიდან (reels, ანიმაციები, data visualizations), AI უკვე იცის ყველა ნიუანსი: კომპოზიცია, რენდერინგი, ტაიმინგი. |
+| [Architecture Diagram Generator](https://github.com/Cocoon-AI/architecture-diagram-generator) | 3.3K | Claude AI-ის სკილი, რომელიც ტექსტური აღწერიდან პროფესიონალურ არქიტექტურის დიაგრამებს ქმნის — HTML/SVG ფაილებად, ლამაზი dark თემით. ფერი ლოგიკით: cyan (frontend), emerald (backend), violet (databases), amber (cloud), rose (security). დიზაინის ცოდნა არ გჭირდება — უბრალოდ აღწერე სისტემა ბუნებრივი ენით. |
 | [n8n Skills](https://github.com/czlonkowski/n8n-skills) | 4K | 7 ურთიერთშემავსებელი უნარი, რომელიც AI ასისტენტს ასწავლის n8n-ში (ავტომატიზაციის პლატფორმა) სამუშაო ნაკადების აწყობას. 525+ n8n მოდელის ცოდნა და 2,653 კონფიგურაციის მაგალითი. თანმხლები: [n8n-MCP](https://github.com/czlonkowski/n8n-mcp). |
 | [Claude Peers MCP](https://github.com/louislva/claude-peers-mcp) | 1.7K | რამდენიმე Claude Code სესია ერთმანეთს აღმოაჩენს და რეალურ დროში ინფორმაციას ცვლის — თუ სხვადასხვა პროექტზე პარალელურად მუშაობ, აგენტები ერთმანეთს დაეხმარებიან. |
 | [Headroom](https://github.com/chopratejas/headroom) | 1.3K | AI აგენტის კონტექსტის კომპრესიის ფენა — იმ მონაცემებს, რომელსაც AI კითხულობს (ფაილები, ლოგები, RAG შედეგები), 70-95%-ით ამცირებს პასუხის ხარისხის დაკარგვის გარეშე. შეუქცევადი კომპრესიის ტექნოლოგიით AI-ს შეუძლია ორიგინალის დაბრუნება საჭიროების შემთხვევაში. ერთი ბრძანებით ეშვება Claude Code-ში, Codex-ში და Aider-ში — ბევრად ხანგრძლივი საუბრები და უფრო დიდი მონაცემთა ბაზების დამუშავება, AI ხარჯების მცირე ნაწილით. |
@@ -113,6 +116,17 @@
 | [Power BI Modeling MCP](https://github.com/microsoft/powerbi-modeling-mcp) | 642 | Microsoft-ის ოფიციალური MCP სერვერი Power BI-თვის — AI აგენტს შეუძლია სემანტიკური მონაცემთა მოდელების შექმნა, რედაქტირება და მართვა ბუნებრივი ენით. DAX შეკითხვების შესრულება, bulk ოპერაციები ასობით ობიექტზე, row-level security და მრავალენოვანი თარგმანი. მუშაობს Power BI Desktop-თან, Fabric workspace-თან და Power BI Project ფაილებთან. |
 | [Metricool MCP](https://github.com/metricool/mcp-metricool) | 33 | Metricool-ის ოფიციალური სერვერი — AI ასისტენტს შეუძლია შენი სოციალური მედიის სტატისტიკა გაანალიზოს და პოსტები დაგეგმოს. Instagram, Facebook, Twitter/X, TikTok, LinkedIn — ყველა ერთ ადგილზე. |
 
+### 💳 ბიზნესი და დეველოპერ ინფრასტრუქტურა
+
+| რეპოზიტორია | ⭐ | აღწერა |
+|---|---|---|
+| [Stripe MCP](https://github.com/stripe/agent-toolkit) | 2.7K | Stripe-ის ოფიციალური MCP სერვერი — AI აგენტს შეუძლია მომხმარებლების ძიება, გადახდების შექმნა, subscription-ების მართვა და dispute-ების მონიტორინგი. თუ შენი ბიზნესი Stripe-ით მუშაობს, AI ფინანსური ოპერაციების სრულ ავტომატიზაციას გააკეთებს. |
+| [Sentry MCP](https://github.com/getsentry/sentry-mcp) | 1.8K | Sentry-ის ოფიციალური სერვერი — AI აგენტი იღებს error tracking, stack trace-ებს, frequency ტრენდებს და შეცდომების ანალიზს. როცა აპლიკაცია იტეხება, AI ავტომატურად ხედავს პრობლემას და აგიხსნის. |
+| [Linear MCP](https://linear.app/docs/mcp) | 2.4K | Linear-ის ოფიციალური MCP — Issue-ების შექმნა, სტატუსის განახლება, cycle-ების მოთხოვნა და გუნდის ამოცანების მართვა AI-დან. თუ Linear-ს იყენებ პროექტების მართვისთვის, AI შენს პროექტ-მენეჯერად იქცევა. |
+| [Vercel MCP](https://vercel.com/docs/mcp) | 1.5K | Vercel-ის ოფიციალური MCP სერვერი — AI ასისტენტს შეუძლია პროექტების მართვა, დეპლოიმენტების მონიტორინგი, ლოგების წაკითხვა და environment variable-ების კონფიგურაცია. Next.js-ის დეველოპერებისთვის აუცილებელი. |
+| [Slack MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/slack) | 3.5K | Slack-ის ოფიციალური MCP სერვერი — AI-ს შეუძლია არხებთან წვდომა, შეტყობინებების გაგზავნა, ისტორიის წაკითხვა, რეაქციების დამატება და thread-ების კონტექსტის გაგება. გუნდში AI ბოტის ასაშენებლად იდეალური. |
+| [E2B MCP](https://github.com/e2b-dev/mcp-server) | 1.2K | E2B-ის ოფიციალური სერვერი — AI აგენტებს უსაფრთხო ღრუბლოვან sandbox-ში კოდის გაშვების საშუალებას აძლევს. Python, JavaScript, Bash — ნებისმიერი კოდი იზოლირებულ გარემოში იშვება. AutoGen-ისა და LangChain-ის აგენტებისთვის აუცილებელი. |
+
 ---
 
 ## 🕷️ ვებ სკრეიპინგი და ბრაუზერი
@@ -130,6 +144,7 @@
 | [Playwright CLI](https://github.com/microsoft/playwright-cli) | 6.9K | Microsoft Playwright-ის მსუბუქი ტერმინალის ინტერფეისი — ბრაუზერის მოქმედებების ჩაწერა, კოდის ავტომატური გენერაცია. MCP სერვერის ოვერჰედის გარეშე მუშაობს, რაც 4-ჯერ ნაკლებ რესურსს ხარჯავს. |
 | [Firecrawl MCP](https://github.com/firecrawl/firecrawl-mcp-server) | 5.9K | Firecrawl-ის ოფიციალური MCP სერვერი — ვებსაიტების სკრეიპინგი, crawling, ძიება და AI-ით ღრმა კვლევა. 12+ ინსტრუმენტი ერთ სერვერში, ავტომატური retry და სიჩქარის კონტროლი. |
 | [Cloudflare MCP](https://github.com/cloudflare/mcp-server-cloudflare) | 3.6K | Cloudflare-ის 13+ MCP სერვერი — Workers, KV, R2, D1, Browser Rendering, DNS ანალიტიკა. AI ასისტენტს შეუძლია Cloudflare-ის მთელი პლატფორმის მართვა ტერმინალიდან. |
+| [rdrr](https://github.com/fkonovalov/rdrr) | 99 | URL → Markdown კონვერტორი, სპეციალურად AI აგენტებისთვის ოპტიმიზებული. ვებ გვერდები, YouTube ვიდეოები, GitHub issues/PR-ები, PDF-ები და X/Twitter პროფილები — ყველა Markdown-ად სუფთა ფორმატში. 20+ საიტ-სპეციფიკური extractor, headless browser არ სჭირდება, სწრაფი მუშაობა. CLI და ბიბლიოთეკის API-ებიც. |
 | [Bright Data MCP](https://github.com/brightdata/brightdata-mcp) | 2.3K | ვებ სკრეიპინგი anti-bot დაცვის გვერდის ავლით — ნებისმიერი ვებსაიტიდან მონაცემების ამოღება ბლოკირების გარეშე. proxy ქსელი და სტრუქტურირებული მონაცემების ექსპორტი ჩაშენებულია. |
 
 ---
@@ -156,7 +171,9 @@
 | [Archon](https://github.com/coleam00/Archon) | 18.4K | AI კოდირების ორკესტრაციის ფრეიმვორკი — YAML workflow-ებით AI-ს აქცევს determinისტულს და გამეორებადს. „Dockerfile AI-ისთვის" — განსაზღვრავ ფაზებს (planning → implementation → validation → review → PR), სადაც AI მხოლოდ იქ მუშაობს, სადაც რეალურ ღირებულებას მატებს. CI/CD-სთან ინტეგრაციისთვის იდეალურია. |
 | [Pydantic AI](https://github.com/pydantic/pydantic-ai) | 16.2K | Python-ის ტიპ-უსაფრთხო აგენტების ფრეიმვორკი Pydantic-ის გუნდისგან (OpenAI, Google, Anthropic SDK-ები Pydantic-ზეა აშენებული). მონიტორინგი და აგენტის სესიის გაზიარება ჩაშენებულია. |
 | [OpenSandbox](https://github.com/alibaba/OpenSandbox) | 10K | Alibaba-ს უსაფრთხო „ქვიშის ყუთი" — AI აგენტი კოდს ასრულებს იზოლირებულ გარემოში, ისე რომ შენს კომპიუტერს ვერაფერს აზიანებს. Python, Java, JavaScript, C# — ნებისმიერ ენაზე მუშაობს. |
+| [Feynman](https://github.com/getcompanion-ai/feynman) | 5.4K | ღია კოდის AI კვლევის აგენტი აკადემიური ინვესტიგაციისთვის — 4 სპეციალიზებული აგენტი (Researcher, Reviewer, Writer, Verifier) პარალელურად მუშაობს. სლეში-ბრძანებები: `/deepresearch`, `/lit`, `/audit`, `/replicate`, `/compare`. ყოველი დასკვნა პირდაპირ მიუთითებს წყაროზე — ნაშრომზე, დოკზე ან რეპოზე (ჰალუცინაცია გამორიცხულია). AlphaXiv ინტეგრაცია, ლოკალური მოდელები (LM Studio, Ollama, vLLM), Modal/RunPod GPU-ებზე ექსპერიმენტების რეპროდუცირება. დამოუკიდებელი ინსტალერი macOS/Linux/Windows-ისთვის. |
 | [OpenSpace](https://github.com/HKUDS/OpenSpace) | 3.9K | AI აგენტების თვითგანვითარების ფრეიმვორკი — აგენტები ავტომატურად იხვეწებიან (AUTO-FIX, AUTO-IMPROVE, AUTO-LEARN) და ერთმანეთს უზიარებენ ნასწავლ უნარებს. 4.2-ჯერ უკეთესი შედეგი და 46%-ით ნაკლები ხარჯი. |
+| [Fincept Terminal](https://github.com/Fincept-Corporation/FinceptTerminal) | 3.4K | Bloomberg Terminal-ის ღია კოდის ალტერნატივა — მშობლიური დესკტოპ ფინანსური პლატფორმა C++20/Qt6-ში, ერთი ფაილიდან ეშვება. 20+ AI ინვესტორ-პერსონა მრავალი LLM პროვაიდერით (OpenAI, Anthropic, Gemini, Groq, Ollama), 100+ მონაცემთა კონექტორი (Yahoo Finance, FRED, IMF, World Bank, Polygon), CFA-დონის ანალიტიკა — DCF მოდელები, პორტფელის ოპტიმიზაცია, VaR/Sharpe მეტრიკა, QuantLib-ზე დაფუძნებული 18 მოდული. კრიპტო WebSocket, ქაღალდის ვაჭრობის ძრავი, ალგო-ტრეიდინგი — ინსტიტუციური ინსტრუმენტები უფასოდ. |
 
 ---
 
