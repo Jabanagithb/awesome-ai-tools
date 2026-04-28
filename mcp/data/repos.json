@@ -1,6 +1,6 @@
 {
-  "generated": "2026-04-26T20:50:54.595Z",
-  "totalRepos": 179,
+  "generated": "2026-04-27T13:54:14.601Z",
+  "totalRepos": 183,
   "categories": [
     {
       "slug": "coding",
@@ -35,14 +35,14 @@
       "emoji": "🧬",
       "english": "AI Agent Frameworks",
       "georgian": "AI აგენტების ფრეიმვორკები",
-      "count": 20
+      "count": 19
     },
     {
       "slug": "business",
       "emoji": "💼",
       "english": "Ready-Made AI Agents for Business",
       "georgian": "მზა AI აგენტები ბიზნესისთვის",
-      "count": 22
+      "count": 27
     },
     {
       "slug": "memory",
@@ -1014,17 +1014,6 @@
       "descriptionEn": "The agent engineering platform"
     },
     {
-      "name": "Hermes-agent",
-      "url": "https://github.com/nousresearch/hermes-agent",
-      "stars": "113K",
-      "description": "Hermes Agent არის Nous Research-ის Python AI აგენტი, რომელიც გამოცდილებიდან სწავლობს და სესიებს შორის მეხსიერებას ინახავს — „იზრდება\" მომხმარებელთან ერთად. Telegram-ში, Discord-ში, Slack-ში, WhatsApp-ში და ავტომატურ განრიგზე მუშაობს. 113K+ ვარსკვლავით ამ კოლექციის ერთ-ერთი ყველაზე სწრაფად მზარდი პროექტია. Nous Research ცნობილია მაღალხარისხიანი ღია LLM მოდელებით (Hermes სერია); ეს აგენტი იმავე ფილოსოფიას ახორციელებს — ძლიერი, ღია, სასაქონლო.",
-      "starsNumeric": 113000,
-      "categorySlug": "frameworks",
-      "categoryEmoji": "🧬",
-      "categoryGeorgian": "AI აგენტების ფრეიმვორკები",
-      "descriptionEn": "The agent that grows with you"
-    },
-    {
       "name": "MetaGPT",
       "url": "https://github.com/geekan/MetaGPT",
       "stars": "67K",
@@ -1278,6 +1267,17 @@
       "descriptionEn": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
     },
     {
+      "name": "Hermes-agent",
+      "url": "https://github.com/nousresearch/hermes-agent",
+      "stars": "119K",
+      "description": "Hermes Agent არის Nous Research-ის Python AI აგენტი, რომელიც გამოცდილებიდან სწავლობს და სესიებს შორის მეხსიერებას ინახავს — „იზრდება\" მომხმარებელთან ერთად. Telegram-ში, Discord-ში, Slack-ში, WhatsApp-ში და ავტომატურ განრიგზე მუშაობს. 119K+ ვარსკვლავით ამ კოლექციის ერთ-ერთი ყველაზე სწრაფად მზარდი პროექტია. Nous Research ცნობილია მაღალხარისხიანი ღია LLM მოდელებით (Hermes სერია); ეს აგენტი იმავე ფილოსოფიას ახორციელებს — ძლიერი, ღია, multi-channel მზა აგენტი OpenClaw-ის ოჯახიდან.",
+      "starsNumeric": 119000,
+      "categorySlug": "business",
+      "categoryEmoji": "💼",
+      "categoryGeorgian": "მზა AI აგენტები ბიზნესისთვის",
+      "descriptionEn": "The agent that grows with you"
+    },
+    {
       "name": "gpt4all",
       "url": "https://github.com/nomic-ai/gpt4all",
       "stars": "77K",
@@ -1388,6 +1388,17 @@
       "descriptionEn": "Vane is an AI-powered answering engine."
     },
     {
+      "name": "AstrBot",
+      "url": "https://github.com/AstrBotDevs/AstrBot",
+      "stars": "30K",
+      "description": "AstrBot — Python-ის AI Agent Assistant, რომელიც თვითონ პოზიციონირდება როგორც **OpenClaw-ის ღია ალტერნატივა**. მრავალი IM პლატფორმის ნატივიური ინტეგრაცია (Telegram, Discord, QQ, WeChat, Lark, Slack), პლაგინების სისტემა, ფართო LLM provider მხარდაჭერა — ერთი instance-ით მთელი კომუნიკაციის ლანდშაფტი ერთიანდება. AGPL-3.0 ლიცენზია, 2022 წლიდან აქტიური, 30K+ ვარსკვლავი. ჩინური მსოფლიოს AI agent-ების ეკოსისტემიდან გადმოვიდა და ამჟამად ერთ-ერთი ყველაზე feature-complete OpenClaw-სტილის ხელსაწყოა.",
+      "starsNumeric": 30000,
+      "categorySlug": "business",
+      "categoryEmoji": "💼",
+      "categoryGeorgian": "მზა AI აგენტები ბიზნესისთვის",
+      "descriptionEn": "AI Agent Assistant that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨"
+    },
+    {
       "name": "Activepieces",
       "url": "https://github.com/activepieces/activepieces",
       "stars": "21K",
@@ -1421,6 +1432,28 @@
       "descriptionEn": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills."
     },
     {
+      "name": "NemoClaw",
+      "url": "https://github.com/NVIDIA/NemoClaw",
+      "stars": "20K",
+      "description": "NemoClaw — **NVIDIA-ის ოფიციალური** ღია კოდის ხელსაწყო, რომელიც OpenClaw-ს უფრო უსაფრთხოდ უშვებს NVIDIA OpenShell-ის გარემოში managed inference-ით. ანუ კორპორატიული პოლისი, audit log-ი, sandbox-ი და GPU-ის მართული წვდომა — ყველა OpenClaw-ის capability, მაგრამ enterprise-დონის უსაფრთხოებით. TypeScript-ში, Apache 2.0 ლიცენზია, 2026 წლის მარტში გამოიცა. ორგანიზაციებისთვის, რომლებიც OpenClaw-ის ღირებულებას სურვილობენ თანამშრომლების მანქანებზე ჩაშვების გარეშე — datacenter-ში, IT-ის სრული კონტროლის ქვეშ.",
+      "starsNumeric": 20000,
+      "categorySlug": "business",
+      "categoryEmoji": "💼",
+      "categoryGeorgian": "მზა AI აგენტები ბიზნესისთვის",
+      "descriptionEn": "Run OpenClaw more securely inside NVIDIA OpenShell with managed inference"
+    },
+    {
+      "name": "QwenPaw",
+      "url": "https://github.com/agentscope-ai/QwenPaw",
+      "stars": "16K",
+      "description": "QwenPaw — Alibaba-ს AgentScope გუნდის Python-ის პერსონალური AI ასისტენტი, რომელიც ლოკალურად ან ღრუბელში მსუბუქად დაყენდება და მრავალი chat აპლიკაციით ხელმისაწვდომი ხდება. easily extensible capabilities — plugin-ების ფართო ეკოსისტემა და Qwen მოდელებთან შერწყმა. Apache 2.0 ლიცენზია, 2026 წლის თებერვალში გამოიცა და უკვე 16K ვარსკვლავი. ჩინური ეკოსისტემის OpenClaw-ის პასუხი, განსაკუთრებით ვინც Qwen მოდელებით მუშაობს.",
+      "starsNumeric": 16000,
+      "categorySlug": "business",
+      "categoryEmoji": "💼",
+      "categoryGeorgian": "მზა AI აგენტები ბიზნესისთვის",
+      "descriptionEn": "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities."
+    },
+    {
       "name": "Fincept Terminal",
       "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
       "stars": "13K",
@@ -1452,6 +1485,17 @@
       "categoryEmoji": "💼",
       "categoryGeorgian": "მზა AI აგენტები ბიზნესისთვის",
       "descriptionEn": null
+    },
+    {
+      "name": "Mercury Agent",
+      "url": "https://github.com/cosmicstack-labs/mercury-agent",
+      "stars": "1.5K",
+      "description": "Mercury Agent — TypeScript-ის ღია კოდის პერსონალური AI აგენტი, რომელიც 24/7 ეშვება და CLI-ის ან Telegram-ის გავლით მუშაობს. „Soul-driven\" დიზაინით — აქვს დახვეწილი permission-hardened ხელსაწყოების სისტემა და ტოკენების budget-ი (ანუ ხარჯი არ გაგექცევა). რამდენიმე არხიდან ერთდროულად მისაწვდომი (CLI + Telegram bot ერთ instance-ზე). MIT ლიცენზია, 2026 წლის 20 აპრილს გამოიცა და სწრაფად გაიზარდა. იმათთვის, ვინც პერსონალურ AI თანაშემწეს ეძებს, რომელიც ნაცვლად იმისა რომ მუდმივად ბრაუზერში გადახვიდე, თავად მოგმართოს Telegram-ში მნიშვნელოვან მოვლენებზე.",
+      "starsNumeric": 1500,
+      "categorySlug": "business",
+      "categoryEmoji": "💼",
+      "categoryGeorgian": "მზა AI აგენტები ბიზნესისთვის",
+      "descriptionEn": "Soul-driven AI agent with permission-hardened tools, token budgets, and multi-channel access. Runs 24/7 from CLI or Telegram."
     },
     {
       "name": "agentic-inbox",
